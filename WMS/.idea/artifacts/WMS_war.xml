@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WMS:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WMS</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WMS-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WMS:war exploded" />
+    </root>
+  </artifact>
+</component>
